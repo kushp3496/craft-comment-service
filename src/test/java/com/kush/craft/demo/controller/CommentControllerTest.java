@@ -1,7 +1,7 @@
-package com.kush.mongodb.controller;
+package com.kush.craft.demo.controller;
 
-import com.kush.mongodb.entity.Comment;
-import com.kush.mongodb.service.CommentService;
+import com.kush.craft.demo.entity.Comment;
+import com.kush.craft.demo.service.CommentService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.reactive.AutoConfigureWebTestClient;

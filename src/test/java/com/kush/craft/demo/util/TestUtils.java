@@ -1,4 +1,4 @@
-package com.kush.mongodb.util;
+package com.kush.craft.demo.util;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;

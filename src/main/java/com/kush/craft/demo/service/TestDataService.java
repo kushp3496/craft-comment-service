@@ -1,10 +1,10 @@
-package com.kush.mongodb.service;
+package com.kush.craft.demo.service;
 
-import com.kush.mongodb.entity.Comment;
-import com.kush.mongodb.entity.User;
-import com.kush.mongodb.enums.CommentStatus;
-import com.kush.mongodb.repository.CommentRepository;
-import com.kush.mongodb.repository.UserRepository;
+import com.kush.craft.demo.entity.User;
+import com.kush.craft.demo.entity.Comment;
+import com.kush.craft.demo.enums.CommentStatus;
+import com.kush.craft.demo.repository.CommentRepository;
+import com.kush.craft.demo.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

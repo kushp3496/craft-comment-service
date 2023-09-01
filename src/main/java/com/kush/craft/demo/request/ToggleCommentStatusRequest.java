@@ -1,6 +1,6 @@
-package com.kush.mongodb.request;
+package com.kush.craft.demo.request;
 
-import com.kush.mongodb.enums.CommentStatus;
+import com.kush.craft.demo.enums.CommentStatus;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;

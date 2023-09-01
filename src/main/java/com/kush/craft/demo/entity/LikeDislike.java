@@ -1,6 +1,6 @@
-package com.kush.mongodb.entity;
+package com.kush.craft.demo.entity;
 
-import com.kush.mongodb.enums.CommentStatus;
+import com.kush.craft.demo.enums.CommentStatus;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;

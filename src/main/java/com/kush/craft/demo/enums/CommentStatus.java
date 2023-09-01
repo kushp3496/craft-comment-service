@@ -1,4 +1,4 @@
-package com.kush.mongodb.enums;
+package com.kush.craft.demo.enums;
 
 public enum CommentStatus {
     LIKE, DISLIKE;

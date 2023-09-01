@@ -1,10 +1,10 @@
-package com.kush.mongodb.service;
+package com.kush.craft.demo.service;
 
-import com.kush.mongodb.entity.Comment;
-import com.kush.mongodb.entity.User;
-import com.kush.mongodb.enums.CommentStatus;
-import com.kush.mongodb.repository.CommentRepository;
-import com.kush.mongodb.repository.UserRepository;
+import com.kush.craft.demo.entity.Comment;
+import com.kush.craft.demo.entity.User;
+import com.kush.craft.demo.enums.CommentStatus;
+import com.kush.craft.demo.repository.CommentRepository;
+import com.kush.craft.demo.repository.UserRepository;
 import org.json.JSONException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -18,8 +18,8 @@ import org.skyscreamer.jsonassert.JSONCompareMode;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-import static com.kush.mongodb.util.TestUtils.convertObjectToString;
-import static com.kush.mongodb.util.TestUtils.getJSONFromFile;
+import static com.kush.craft.demo.util.TestUtils.convertObjectToString;
+import static com.kush.craft.demo.util.TestUtils.getJSONFromFile;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.when;

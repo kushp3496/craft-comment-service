@@ -1,9 +1,9 @@
-package com.kush.mongodb.controller;
+package com.kush.craft.demo.controller;
 
-import com.kush.mongodb.entity.Comment;
-import com.kush.mongodb.entity.LikeDislike;
-import com.kush.mongodb.request.ToggleCommentStatusRequest;
-import com.kush.mongodb.service.CommentService;
+import com.kush.craft.demo.entity.Comment;
+import com.kush.craft.demo.entity.LikeDislike;
+import com.kush.craft.demo.request.ToggleCommentStatusRequest;
+import com.kush.craft.demo.service.CommentService;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

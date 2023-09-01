@@ -1,6 +1,6 @@
-package com.kush.mongodb.repository;
+package com.kush.craft.demo.repository;
 
-import com.kush.mongodb.entity.Comment;
+import com.kush.craft.demo.entity.Comment;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.mongodb.repository.Query;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;

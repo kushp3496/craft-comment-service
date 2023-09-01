@@ -1,7 +1,7 @@
-package com.kush.mongodb.entity;
+package com.kush.craft.demo.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.kush.mongodb.enums.CommentStatus;
+import com.kush.craft.demo.enums.CommentStatus;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

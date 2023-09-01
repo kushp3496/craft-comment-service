@@ -1,4 +1,4 @@
-package com.kush.mongodb.entity;
+package com.kush.craft.demo.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
