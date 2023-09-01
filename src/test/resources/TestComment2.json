@@ -1,0 +1,20 @@
+[
+  {
+    "id": null,
+    "text": "hello",
+    "userId": "test_userId",
+    "userName": "test_user",
+    "likesDislikes": null,
+    "createdAt": null,
+    "updatedAt": null
+  },
+  {
+    "id": null,
+    "text": "hello",
+    "userId": "test_userId1",
+    "userName": "test_user1",
+    "likesDislikes": null,
+    "createdAt": null,
+    "updatedAt": null
+  }
+]
