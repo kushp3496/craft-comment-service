@@ -4,7 +4,6 @@ import com.kush.mongodb.enums.CommentStatus;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 
@@ -12,7 +11,6 @@ import java.time.LocalDateTime;
 
 @Getter
 @Setter
-@ToString(exclude = {"user"})
 @AllArgsConstructor
 public class LikeDislike {
 

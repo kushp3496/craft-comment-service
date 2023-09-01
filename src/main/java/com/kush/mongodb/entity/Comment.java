@@ -5,7 +5,6 @@ import com.kush.mongodb.enums.CommentStatus;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import lombok.ToString;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.LastModifiedDate;
@@ -21,7 +20,6 @@ import java.util.Set;
 @Setter
 @Document
 @NoArgsConstructor
-@ToString(exclude = {"user, parentCommentId"})
 public class Comment {
 
     @Id

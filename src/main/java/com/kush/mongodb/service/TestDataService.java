@@ -1,19 +1,12 @@
 package com.kush.mongodb.service;
 
 import com.kush.mongodb.entity.Comment;
-import com.kush.mongodb.entity.LikeDislike;
 import com.kush.mongodb.entity.User;
 import com.kush.mongodb.enums.CommentStatus;
 import com.kush.mongodb.repository.CommentRepository;
-//import com.kush.mongodb.repository.LikeDislikeRepository;
 import com.kush.mongodb.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.context.event.ApplicationReadyEvent;
-import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Service;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @Service
 public class TestDataService {
@@ -24,10 +17,7 @@ public class TestDataService {
     @Autowired
     CommentRepository commentRepository;
 
-//    @Autowired
-//    LikeDislikeRepository likeDislikeRepository;
-
-//    @EventListener(ApplicationReadyEvent.class)
+    //    @EventListener(ApplicationReadyEvent.class)
     public void insertTestData() {
         User u1 = new User("u1");
         User u2 = new User("u2");
@@ -62,9 +52,6 @@ public class TestDataService {
 
         Comment c3111 = new Comment("c3111", u3.getId(), c311.getId());
         commentRepository.save(c3111).block();
-
-        System.out.println(userRepository.findAll().collectList().block());
-        System.out.println(commentRepository.findAll().collectList().block());
 
         c1.addLikeOrDislike(u1.getId(), CommentStatus.LIKE);
         c111.addLikeOrDislike(u1.getId(), CommentStatus.LIKE);

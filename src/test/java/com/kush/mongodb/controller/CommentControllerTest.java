@@ -28,7 +28,7 @@ class CommentControllerTest {
         when(commentService.getRootComments(anyInt(), anyInt())).thenReturn(Flux.just(new Comment()));
 
         webClient.get()
-                .uri("/fetch/1/10")
+                .uri("/fetch/0/2")
                 .exchange()
                 .expectStatus().isOk()
                 .expectBodyList(Comment.class);
